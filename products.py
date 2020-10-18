@@ -1,6 +1,6 @@
 import os #operating system
-products = []
-if os.path.isfile('products.csv'):
+products = [] 
+if os.path.isfile('products.csv'): #確定檔案是否存在
 	print('Yes, the file exist.')
 	with open ('products.csv', 'r', encoding='utf-8') as file: #讀取檔案
 		for line in file:
