@@ -8,8 +8,6 @@ with open ('products.csv', 'r', encoding='utf-8') as file:
 		products.append([name, price])
 print(products)
 while True:
-	if '商品名稱,商品價錢' in line:
-			continue
 	name = input('Please enter the name of the product:')
 	if name == 'q':
 		break
